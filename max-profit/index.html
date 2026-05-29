@@ -4,14 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max Profit</title>
+    <title>Max Profit Solver</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <input id="time" placeholder="Enter time">
-    <button onclick="run()">Calculate</button>
 
-    <div id="output"></div>
+    <div class="container">
+        <h1>Max Profit Problem</h1>
+        <div class="input-section">
+            <label for="time">Total Time Units</label>
+            <input id="time" type="number" placeholder="Enter Time Unit">
+            <button onclick="run()">Calculate</button>
+        </div>
+
+        <div id="output"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
